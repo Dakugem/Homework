@@ -5,7 +5,6 @@
 #ifndef FILESYSTEMLIB
 #define FILESYSTEMLIB
 
-//Проверочный комментарий
 namespace FILESYSTEM
 {
     class File
