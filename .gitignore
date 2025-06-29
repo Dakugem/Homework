@@ -39,3 +39,7 @@
 
 # debug information files
 *.dwo
+
+# CMAKE generated directories and etc.
+build/
+.vscode/
