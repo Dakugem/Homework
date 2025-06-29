@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\XEON 1620\OneDrive\IT Школа Протей\Разработчик C++\2 лекция С++\src\fsyslib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\XEON 1620\OneDrive\IT Школа Протей\Разработчик C++\2 лекция С++\include\fsyslib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\XEON 1620\OneDrive\IT Школа Протей\Разработчик C++\2 лекция С++\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{71630C4E-E042-3856-8785-3F37E2C55B4F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E45113E9-5237-3055-8BDC-B91654991BB9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

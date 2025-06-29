@@ -1,0 +1,10 @@
+^C:\USERS\XEON 1620\ONEDRIVE\IT ШКОЛА ПРОТЕЙ\РАЗРАБОТЧИК C++\2 ЛЕКЦИЯ С++\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/XEON 1620/OneDrive/IT Школа Протей/Разработчик C++/2 лекция С++" "-BC:/Users/XEON 1620/OneDrive/IT Школа Протей/Разработчик C++/2 лекция С++/build" --check-stamp-file "C:/Users/XEON 1620/OneDrive/IT Школа Протей/Разработчик C++/2 лекция С++/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

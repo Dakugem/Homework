@@ -1,0 +1,4 @@
+C:/Users/XEON 1620/OneDrive/IT Школа Протей/Разработчик C++/2 лекция С++/build/CMakeFiles/filesystemlib.dir
+C:/Users/XEON 1620/OneDrive/IT Школа Протей/Разработчик C++/2 лекция С++/build/CMakeFiles/main.dir
+C:/Users/XEON 1620/OneDrive/IT Школа Протей/Разработчик C++/2 лекция С++/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/XEON 1620/OneDrive/IT Школа Протей/Разработчик C++/2 лекция С++/build/CMakeFiles/ZERO_CHECK.dir
