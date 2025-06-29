@@ -8,7 +8,7 @@ namespace FILESYSTEM
 
         if (!file.is_open())
         {
-            throw file_exception{"Failed to open file: " + path};
+            throw std::ios_base::failure{"Failed to open file: " + path};
         }
     }
 
@@ -20,11 +20,11 @@ namespace FILESYSTEM
         {
             if (file.eof())
             {
-                throw file_exception{"End of file reached: " + path};
+                throw std::ios_base::failure{"End of file reached: " + path};
             }
             else
             {
-                throw file_exception{"Failed to read file: " + path};
+                throw std::ios_base::failure{"Failed to read file: " + path};
             }
         }
 
@@ -37,7 +37,7 @@ namespace FILESYSTEM
 
         if (!file)
         {
-            throw file_exception{"Failed to write to file: " + path};
+            throw std::ios_base::failure{"Failed to write to file: " + path};
         }
     }
 
