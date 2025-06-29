@@ -5,7 +5,7 @@
 #ifndef FILESYSTEMLIB
 #define FILESYSTEMLIB
 
-//Проверочный комментарий
+//РџСЂРѕРІРµСЂРѕС‡РЅС‹Р№ РєРѕРјРјРµРЅС‚Р°СЂРёР№
 namespace FILESYSTEM
 {
     class File
